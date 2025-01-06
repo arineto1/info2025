@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #090302;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header > h1 {
+  color: white;
+}
+main {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 10vh;
+}
+main > .cursos > h1 {
+  text-align: center;
+  background-color: #c8bfc7;
+  height: 15vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: solid;
+}
+main > .cursos > h1:hover {
+  background-color: #7A9B76;
+  cursor: pointer;
+}
+footer{
+  background-color: #090302;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+@media (width < 600px) {
+  main > .cursos > h1 {
+    height: 20vh;
+    width: 90vw;
+  }
+}
+
