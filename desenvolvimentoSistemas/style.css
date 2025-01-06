@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #090302;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header > h1 {
+  color: white;
+}
+main {
+  height: 75vh;
+  width: 100vw;
+  padding: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 10vh;
+  background-image: url(https://www.leidainformatica.com/wp-content/uploads/2020/05/205-scaled.jpg);
+  background-size: cover;
+}
+main > .cursos > h1 {
+  text-align: center;
+  background-color: #c8bfc7;
+  height: 15vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: solid 5px;
+}
+main > .cursos > h1:hover {
+  background-color: #7a9b76;
+  cursor: pointer;
+  color: #090302;
+}
+footer {
+  background-color: #090302;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+@media (width < 600px) {
+  main > .cursos > h1 {
+    height: 20vh;
+    width: 90vw;
+  }
+}
