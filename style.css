@@ -9,7 +9,7 @@ header {
   align-items: center;
   justify-content: center;
 }
-header > h1 {
+header h1 {
   color: white;
 }
 main {
@@ -26,7 +26,7 @@ main {
   background-size: cover;
   
 }
-main > .cursos > button {
+main .cursos button {
   text-align: center;
   background-color: #c8bfc7;
   height: 15vh;
@@ -38,7 +38,7 @@ main > .cursos > button {
   border: solid 5px;
   font-size: 1.8rem;
 }
-main > .cursos > button:hover {
+main .cursos button:hover {
   background-color: #7a9b76;
   cursor: pointer;
   color: #090302;
@@ -52,7 +52,7 @@ footer {
   color: white;
 }
 @media (width < 600px) {
-  main > .cursos > button {
+  main .cursos button {
     height: 20vh;
     width: 90vw;
   }
