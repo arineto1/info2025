@@ -4,7 +4,7 @@
 }
 header {
   background-color: #090302;
-  height: 15vh;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,11 +12,12 @@ header {
 header > #home {
   position: absolute;
   left: 1vw;
-  width: 100px;
-  height: 10vh;
+  width: 200px;
+  height: 5vh;
   color: blue;
   border: solid 3px blue;
   border-radius: 20px;
+  font-size: 1vw;
 }
 header > #home:hover {
   background-color: #7a9b76;
@@ -25,50 +26,52 @@ header > #home:hover {
 }
 header > h1 {
   color: white;
+  
 }
 main {
-  min-height: 75vh;
+  min-height: 85vh;
   width: 100vw;
-  padding: 5vw;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: center;  
   margin: auto;
-  gap: 10vh;
-  background-image: url(https://www.leidainformatica.com/wp-content/uploads/2020/05/205-scaled.jpg);
-  background-size: cover;
+  
 }
-main > .cursos > button {
+main #menu{
+  background-color: #EAEAEA;
+  width: 10vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  
+}
+main #menu a{
+  text-decoration: none;
+  border: solid 1px black;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
   text-align: center;
-  background-color: #c8bfc7;
-  height: 15vh;
-  width: 40vw;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  border-radius: 15px;
-  border: solid 5px;
-  font-size: 1.8rem;
+  
+  
+  
 }
-main > .cursos > button:hover {
+main #menu a:hover{
   background-color: #7a9b76;
-  cursor: pointer;
-  color: #090302;
+  
 }
-footer {
-  background-color: #090302;
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+main #aulas{
+  background-color: #FFFFFF;
+  width: 90vw;
+  height: 90vh;
+  overflow:hidden;
+  
 }
 @media (width < 600px) {
-  main > .cursos > button {
-    height: 20vh;
-    width: 90vw;
-  }
   header > #home {
     position: static;
     width: 80%;

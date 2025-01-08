@@ -13,7 +13,7 @@ header > h1 {
   color: white;
 }
 main {
-  height: 75vh;
+  min-height: 75vh;
   width: 100vw;
   padding: 5vw;
   display: flex;
@@ -24,8 +24,9 @@ main {
   gap: 10vh;
   background-image: url(https://clarify.com.br/blog/wp-content/uploads/2021/09/linguagens-de-programacao.jpg);
   background-size: cover;
+  
 }
-main > .cursos > h1 {
+main > .cursos > button {
   text-align: center;
   background-color: #c8bfc7;
   height: 15vh;
@@ -35,8 +36,9 @@ main > .cursos > h1 {
   justify-content: center;
   border-radius: 15px;
   border: solid 5px;
+  font-size: 1.8rem;
 }
-main > .cursos > h1:hover {
+main > .cursos > button:hover {
   background-color: #7a9b76;
   cursor: pointer;
   color: #090302;
@@ -50,7 +52,7 @@ footer {
   color: white;
 }
 @media (width < 600px) {
-  main > .cursos > h1 {
+  main > .cursos > button {
     height: 20vh;
     width: 90vw;
   }
