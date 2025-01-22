@@ -67,6 +67,5 @@ function aula17() {
   iframe.src = 'aulas/aula17.pdf#zoom=80'
 }
 function aula18() {
-  var iframe = document.getElementById('aulaPDF')
-  iframe.src = 'aulas/aula18.pdf#zoom=80'
+  window.open('https://drive.google.com/drive/folders/1B2aE4IwQ4iPcj6rQHZdBcjT--gROYDSR?usp=sharing') 
 }
