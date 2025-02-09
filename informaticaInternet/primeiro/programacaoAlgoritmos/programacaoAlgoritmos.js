@@ -1,6 +1,6 @@
 function aula1() {
   var iframe = document.getElementById('aulaPDF')
-  iframe.src = 'aulas/aula1.pdf#zoom=80'
+  iframe.src = 'aulas/aula1s.pdf#zoom=80'
 }
 function aula2() {
   var iframe = document.getElementById('aulaPDF')
