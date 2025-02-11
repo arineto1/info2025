@@ -1,10 +1,10 @@
 function aula1() {
   var iframe = document.getElementById('aulaPDF')
-  iframe.src = 'aulas/aula1r.pdf#zoom=80'
+  iframe.src = 'aulas/aula1s.pdf#zoom=80'
 }
 function aula2() {
   var iframe = document.getElementById('aulaPDF')
-  iframe.src = 'aulas/aula2.pdf#zoom=80'
+  iframe.src = 'aulas/aula2s.pdf#zoom=80'
 }
 function aula3() {
   var iframe = document.getElementById('aulaPDF')
