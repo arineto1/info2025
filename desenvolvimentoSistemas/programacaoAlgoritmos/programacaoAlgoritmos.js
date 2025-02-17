@@ -4,7 +4,7 @@ function aula1() {
 }
 function aula2() {
   var iframe = document.getElementById('aulaPDF')
-  iframe.src = 'aulas/aula2.pdf#zoom=80'
+  iframe.src = 'aulas/aula2s.pdf#zoom=80'
 }
 function aula3() {
   var iframe = document.getElementById('aulaPDF')
