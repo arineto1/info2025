@@ -8,7 +8,7 @@ function aula2() {
 }
 function aula3() {
   var iframe = document.getElementById('aulaPDF')
-  iframe.src = 'aulas/aula3.pdf#zoom=80'
+  iframe.src = 'aulas/aula3s.pdf#zoom=80'
 }
 function aula4() {
   var iframe = document.getElementById('aulaPDF')
