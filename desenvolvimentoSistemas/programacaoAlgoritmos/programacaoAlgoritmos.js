@@ -24,7 +24,7 @@ function aula6() {
 }
 function aula7() {
   var iframe = document.getElementById('aulaPDF')
-  iframe.src = 'aulas/aula7.pdf#zoom=80'
+  iframe.src = 'aulas/aula7-2.pdf#zoom=80'
 }
 function aula8() {
   var iframe = document.getElementById('aulaPDF')
