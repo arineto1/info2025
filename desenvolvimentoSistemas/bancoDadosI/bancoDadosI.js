@@ -20,7 +20,7 @@ function aula5() {
 }
 function aula6() {
   var iframe = document.getElementById('aulaPDF')
-  iframe.src = 'aulas/aula6.pdf#zoom=80'
+  iframe.src = 'aulas/AULA6-1.pdf#zoom=80'
 }
 function aula7() {
   var iframe = document.getElementById('aulaPDF')
