@@ -70,3 +70,27 @@ function aula18() {
   var iframe = document.getElementById('aulaPDF')
   iframe.src = 'aulas/aula18.pdf#zoom=80'
 }
+function aula19() {
+  var iframe = document.getElementById('aulaPDF')
+  iframe.src = 'aulas/aula19.pdf#zoom=80'
+}
+function aula20() {
+  var iframe = document.getElementById('aulaPDF')
+  iframe.src = 'aulas/aula20.pdf#zoom=80'
+}
+function aula21() {
+  var iframe = document.getElementById('aulaPDF')
+  iframe.src = 'aulas/aula21.pdf#zoom=80'
+}
+function aula22() {
+  var iframe = document.getElementById('aulaPDF')
+  iframe.src = 'aulas/aula22.pdf#zoom=80'
+}
+function aula23() {
+  var iframe = document.getElementById('aulaPDF')
+  iframe.src = 'aulas/aula23.pdf#zoom=80'
+}
+function aula24() {
+  var iframe = document.getElementById('aulaPDF')
+  iframe.src = 'aulas/aula24.pdf#zoom=80'
+}
